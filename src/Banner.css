@@ -1,0 +1,48 @@
+.banner{
+    background-image: url("https://media.architecturaldigest.com/photos/64efa7a4022e3959b07c3a68/master/w_1600%2Cc_limit/YUXY102_0224%2520(1).jpg");
+    height: 74vh;
+    position: relative;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+    
+}
+.banner-search{
+    display: flex;
+    flex-direction: column;
+}
+.banner-searchbutton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+    
+}
+.banner-info > button{
+    background-color: #ff7779;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.banner-info > button:hover{
+    background-color: white;
+    color: #ff7779;
+}
+.banner-info > h5{
+    margin-top: 10px;
+}
